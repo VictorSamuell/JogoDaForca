@@ -6,10 +6,11 @@
     box-sizing: border-box;
 }
 
-/* Estilos gerais do body */
+
 body {
+    
     font-family: 'Arial', sans-serif;
-    background-color: #e0e0e0; /* Cor de fundo para o body */
+    background-color: #e0e0e0; 
     color: #333;
     display: flex;
     justify-content: center;
@@ -18,28 +19,28 @@ body {
     margin: 0;
 }
 
-/* Container principal */
+
 .container {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     width: 95%;
-    max-width: 1100px; /* Aumentei o tamanho máximo do container */
+    max-width: 1100px; 
     display: flex;
     justify-content: space-between;
 }
 
-/* Área de jogo dividida em duas colunas */
+
 .game-area {
     display: flex;
     width: 100%;
     justify-content: space-between;
 }
 
-/* Estilos da seção superior */
+
 .box {
-    width: 40%; /* Ajustei a largura da box */
+    width: 40%; 
     text-align: center;
 }
 
@@ -48,19 +49,19 @@ body {
     max-width: 200px;
 }
 
-/* Título do jogo */
+
 h2 {
     font-size: 24px;
     color: #333;
     margin: 10px 0;
 }
 
-/* Estilos da seção principal */
+
 .box-main {
     width: 55%;
 }
 
-/* Lista de letras da palavra */
+
 .mostra-palavras {
     list-style-type: none;
     display: flex;
@@ -77,13 +78,13 @@ h2 {
     text-align: center;
 }
 
-/* Estilos das dicas e tentativas */
+
 .dica, .tentativas-falhas {
     font-size: 18px;
     margin: 10px 0;
 }
 
-/* Teclado */
+
 .teclado {
     display: flex;
     flex-direction: column;
@@ -99,7 +100,7 @@ h2 {
 }
 
 .tecla {
-    background-color: #555; /* Cinza escuro */
+    background-color: #555; 
     border: none;
     border-radius: 4px;
     color: white;
@@ -113,10 +114,10 @@ h2 {
 }
 
 .tecla:hover {
-    background-color: #666; /* Cor de hover um pouco mais clara */
+    background-color: #666; 
 }
 
 .tecla:disabled {
-    background-color: #999; /* Cor para botões desativados */
+    background-color: #999; 
     cursor: not-allowed;
 }
