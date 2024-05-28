@@ -3,88 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Jogo da Forca</title>
-
     <link rel="stylesheet" href="assets/css/style.css">
-
 </head>
 <body>
-    
     <div class="container">
-
-        <div class="box">
-
-            <img src="assets/images/hangman-0.svg" alt="hangman-img">
-            <h2> Jogo da Forca </h2>
-
-
-        </div>
-
-        <div class="box-main">
-
-            <ul class="mostra-palavras">
-                <li class="letra"></li>
-                <li class="letra"></li>
-                <li class="letra"></li>
-                <li class="letra"></li>
-                <li class="letra"></li>
-                <li class="letra"></li>
-                <li class="letra"></li>
-            </ul>
-
-            <h4 class="dica"> Dica :
-                <b> Teste </b>
-
-            </h4>
+        <div class="game-area">
             
-            <h4 class="tentativas-falhas"> 
-                 Tentativas Falhas : 
-                <b> 0 / 6 </b>
-
-            </h4>
-
-            <div class="keyboard">
-
-                <button>a</button>
-                <button>b</button>
-                <button>c</button>
-                <button>d</button>
-                <button>e</button>
-                <button>f</button>
-                <button>g</button>
-                <button>h</button>
-                <button>i</button>
-                <button>j</button>
-                <button>k</button>
-                <button>l</button>
-                <button>m</button>
-                <button>n</button>
-                <button>o</button>
-                <button>p</button>
-                <button>q</button>
-                <button>r</button>
-                <button>s</button>
-                <button>t</button>
-                <button>u</button>
-                <button>v</button>
-                <button>w</button>
-                <button>x</button>
-                <button>y</button>
-                <button>z</button>
+            <div class="box">
                 
-
-
+                <img id="hangman-img" src="assets/images/hangman-0.svg" alt="hangman-img">
+                
+                <h2>Jogo da Forca</h2>
+            
             </div>
-
-
-
+            
+            <div class="box-main">
+                
+                <ul class="mostra-palavras">
+                    <li class="letra"></li>
+                    <li class="letra"></li>
+                    <li class="letra"></li>
+                    <li class="letra"></li>
+                    <li class="letra"></li>
+                    <li class="letra"></li>
+                    <li class="letra"></li>
+                </ul>
+                
+                <h4 class="dica">Dica: <b>Teste</b></h4>
+                
+                <h4 class="tentativas-falhas">Tentativas Falhas: <b>0 / 6</b></h4>
+                
+                <div class="teclado">
+                    <div class="linha-teclado">
+                        
+                        <button class="tecla">a</button>
+                        <button class="tecla">b</button>
+                        <button class="tecla">c</button>
+                        <button class="tecla">d</button>
+                        <button class="tecla">e</button>
+                        <button class="tecla">f</button>
+                        <button class="tecla">g</button>
+                        <button class="tecla">h</button>
+                        <button class="tecla">i</button>
+                    </div>
+                    
+                    <div class="linha-teclado">
+                        <button class="tecla">j</button>
+                        <button class="tecla">k</button>
+                        <button class="tecla">l</button>
+                        <button class="tecla">m</button>
+                        <button class="tecla">n</button>
+                        <button class="tecla">o</button>
+                        <button class="tecla">p</button>
+                        <button class="tecla">q</button>
+                        <button class="tecla">r</button>
+                    </div>
+                   
+                    <div class="linha-teclado">
+                        <button class="tecla">s</button>
+                        <button class="tecla">t</button>
+                        <button class="tecla">u</button>
+                        <button class="tecla">v</button>
+                        <button class="tecla">w</button>
+                        <button class="tecla">x</button>
+                        <button class="tecla">y</button>
+                        <button class="tecla">z</button>
+                    
+                    </div>
+                
+                </div>
+            
+            </div>
+        
         </div>
-
-
-
+    
     </div>
-
+    
+    <script src="assets/js/script.js"></script>
 
 </body>
 </html>
