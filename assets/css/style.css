@@ -140,6 +140,13 @@ h2 {
 
 }
 
+.modo-jogo button:hover{
+   
+    background-color: #666; 
+
+}
+
+
 .tecla {
     background-color: #555; 
     border: none;
