@@ -179,3 +179,15 @@ h2 {
     gap: 10px;
 
 }
+
+.modo-jogo p{
+        font-size: 18px;
+        margin: 15px 0 30px;
+}
+.modo-jogo h4{
+        font-size: 28px;
+}
+.modo-jogo p b{
+        color: rgb(26, 98, 146);
+        font-weight: 600;
+}
