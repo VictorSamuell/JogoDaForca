@@ -73,17 +73,26 @@ h2 {
 .mostra-palavras {
     list-style-type: none;
     display: flex;
+    gap: 10px;
     justify-content: center;
     margin-bottom: 20px;
 }
 
-.letra {
+.mostra-palavras .letra {
     font-size: 24px;
-    border-bottom: 2px solid #333;
+    border-bottom: 3px solid #333;
     margin: 0 5px;
-    width: 30px;
+    width: 28px;
     height: 40px;
     text-align: center;
+}
+
+.mostra-palavras .letra.certa{
+
+    border-color: transparent;
+    
+
+
 }
 
 
